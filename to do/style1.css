@@ -1,0 +1,25 @@
+    h1 {
+        text-align: center;
+    }
+    
+    #taskList {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    button {
+        margin-left: 3px;
+        background-color: #723e03;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .completed {
+        text-decoration: line-through;
+        color: green;
+        cursor: pointer;
+    }
+    
+    #todoList {
+        text-align: center;
+    }

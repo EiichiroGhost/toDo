@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To-do List</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body style="background-image: url(./image/1612817096_2-p-pastelno-biryuzovii-fon-2.jpg);">
+    <h1>Список дел</h1>
+    <div class="content"></div>
+    <div id="todoList">
+        <input type="text" id="taskInput" placeholder="Введите новое задание">
+        <button onclick="addTask()">Добавить</button>
+        <button onclick="deleteAllTasks()">Удалить все задачи</button>
+        <select id="statusFilter" onchange="filterTasks()">
+            <option value="all">Все</option>
+            <option value="completed">Выполненные</option>
+            <option value="uncompleted">Невыполненные</option>
+        </select>
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="main1.js"></script>
+</body>
+
+</html>
